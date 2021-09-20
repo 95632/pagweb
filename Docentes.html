@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Docentes</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image:url('https://images.pexels.com/photos/2310642/pexels-photo-2310642.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-2310642.jpg&fm=jpg');
+            background-size:cover;
+        }
+        .logo{
+            width: 100px; 
+            height: auto; 
+            float: left; 
+            margin: 10px
+        }
+        img[class*="perfil"]{
+            width: 200px;
+            height: 200px;
+        }
+        .perfil2{
+            object-fit: cover;
+        }
+        .perfil3{
+            object-fit: cover;
+        }
+        .perfil4{
+            object-fit: cover;
+        }
+        .perfil6{
+            object-fit: cover;
+        }
+        .menu a{
+            text-decoration:none;
+            display:inline-block;
+            width:100%;
+            font-size:1.3em;
+            font-weight:bold;
+            color: white;
+        }
+        .menu{
+            background-color:rgb(248, 34, 77);
+            float:left;
+            font-size:1.5em;
+            padding: 0px 20px 0px 20px;
+            margin-top:150px;
+            margin-left: -100px;
+            width:30%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .menu a:hover{
+            background-color: white;
+            color: crimson;
+        }
+        .inf{
+            float:left;
+            width: 63%;
+            margin-left: 20px;
+        }
+        div[class*="doc"]{
+            width: 100%;
+            margin: 45px 0px 5px 0px;
+            padding: 20px 8px 20px 8px;
+            border: 4px solid crimson;
+        }
+        .doc7{
+            margin-bottom: 20px;
+        }
+        .x{
+            width: 100%;
+            height: 130px;
+            background-color: crimson;
+            margin-top: 0px;
+        }
+        .a1{
+            width: 99%;
+            padding: 30px 0px 25px 0px;
+            border-style: none;
+            font-family: 'Merriweather', serif;
+            font-weight: bold;
+            font-size: 2.8em;
+            color: white;
+        }
+        h2{
+            margin:-200px 220px 175px;
+            color:white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h3{
+            margin:-160px 220px 138px; 
+            font-style: italic;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+        }
+        ul{
+            margin:-120px 260px 50px; 
+            font-size: 18px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            list-style-type: circle; 
+        }
+        @media only screen and (max-width:432px){
+            .a1{
+                margin-bottom: 25px;
+            }
+            .menu a{
+                font-size:0.9em;
+                text-align:center; 
+                margin:0px;
+            }
+            .menu{
+                margin-top:0px;
+                padding:0px;
+                width:100%;
+            }
+            .inf{
+                margin:0;
+                padding:0;
+                width:100%;
+            }
+            div[id*="doc"]{
+                margin:0px;
+                padding:20px;
+                border: 4px solid rgb(88, 75, 78);
+            } 
+            h2{
+                margin:0px;
+            }
+            h3{
+                margin:10px 0px 138px;
+            }
+            img[class*="perfil"]{
+                display: none;
+            }
+            ul{
+                margin:-120px 60px 50px; 
+                font-size: 18px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                list-style-type: circle; 
+            }
+        }
+        @media only screen and (max-width:768px){
+            .a1{
+                margin-bottom: 35px;
+            }
+            .menu a{
+                font-size:0.9em;
+                text-align:center; 
+                margin:0;
+            }
+            .menu{
+                margin:0;
+                padding:0;
+                width:100%;
+                margin-top:20px;
+            }
+            .inf{
+                margin:0;
+                padding:0;
+                width:100%;
+            }
+            div[id*="doc"]{
+                margin:0px;
+                padding:20px;
+                border: 4px solid rgb(88, 75, 78);
+            }
+            h2{
+                margin:0px;
+            }
+            h3{
+                margin:10px 0px 138px;
+            }
+            img[class*="perfil"]{
+                width: 200px;
+                height: 200px;
+                float: right;
+            }
+            ul{
+                margin:-120px 60px 50px; 
+                font-size: 18px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                list-style-type: circle; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        <div><img class="logo" src="https://cdn.theorg.com/632c3076-4f28-43cc-9a40-32b94f3d96a5_medium.png"></div>
+        <div class="a1"><strong>DOCENTES</strong></div>
+        <div class="menu" >
+            <a href="Menu.html">Inicio</a>
+            <a href="OfertaAcademica.html">Oferta Académica</a>
+            <a href="Docentes.html">Docentes</a>
+            <a href="Cursos.html">Cursos</a>
+            <a href="Eventos.html">Eventos </a>
+            <a href="Contactos.html">Contactos</a>
+            <a href="AcercaDe.html">Acerca de </a>
+        </div>
+        <div class="inf">
+            <div class="doc">
+                <img class="perfil" src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1425034585/content-items/001/228/844/sesion-estudio-barcelona-10-original.jpg?1425034585">
+                <h2>Lic. Antony Smith</h2>
+                <h3>Áreas especializadas:</h3>
+                <ul>
+                    <li>Sociología</li>
+                    <li>Informática</li>
+                    <li>Lingüística</li>
+                </ul>
+            </div>
+            <div class="doc1">
+                <img class="perfil1" src="https://static.wixstatic.com/media/e7b59c_5ec00be7b5ea4a59b6b41e48dec9173f~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_90/e7b59c_5ec00be7b5ea4a59b6b41e48dec9173f~mv2.jpg">
+                <h2>Lic. María Maldonado</h2>
+                <h3>Áreas especializadas:</h3>
+                <ul>
+                    <li>Pedagogía</li>
+                    <li>Física</li>
+                    <li>Matemáticas</li>
+                </ul>
+            </div>
+            <div class="doc2">
+                <img class="perfil2" src="https://tejedorpublicitario.com/wp-content/uploads/2014/07/retrato-perfil-valencia.jpg">
+                <h2>Lic. Carlos Romero</h2>
+                <h3>Áreas especializadas:</h3>
+                <ul>
+                    <li>Lenguas</li>
+                    <li>Arte y cultura</li>
+                    <li>Ciencias de la Religión</li>
+                </ul>
+            </div>
+            <div class="doc3">
+                <img class="perfil3" src="https://storage.alboom.ninja/sites/2851/albuns/248081/fotos_perfil_profissional___retrato-6.jpg?t=1524682159">
+                <h2>Lic. Fernando Gutierrez</h2>
+                <h3>Áreas especializadas:</h3>
+                <ul>
+                    <li>Psicología</li>
+                    <li>Filosofía</li>
+                    <li>Informática</li>
+                </ul>
+            </div>
+            <div class="doc4">
+                <img class="perfil4" src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1425034593/content-items/001/228/845/sesion-estudio-barcelona-32-original.jpg?1425034593">
+                <h2>Lic. Sandra Velázquez</h2>
+                <h3>Áreas especializadas:</h3>
+                <ul>
+                    <li>Robótica</li>
+                    <li>Marketing</li>
+                    <li>Lenguas</li>
+                </ul>
+            </div>
+            <div class="doc5">
+                <img class="perfil5" src="https://ojodepezfotografos.com/wp-content/uploads/2019/03/SESION-DE-FOTOS-PERFIL-PROFESIONAL-10.jpg">
+                <h2>Lic. Jostin Flores</h2>
+                <h3>Áreas especializadas:</h3>
+                <ul>
+                    <li>Ingeniería Civil</li>
+                    <li>Arquitectura</li>
+                    <li>Manufactura y Producción</li>
+                </ul>
+            </div>
+            <div class="doc6">
+                <img class="perfil6" src="http://tueresundonjuan.com/blog/wp-content/uploads/2017/02/foto-de-perfil.png">
+                <h2>Lic. Antonio Vázquez</h2>
+                <h3>Áreas especializadas:</h3>
+                <ul>
+                    <li>Matemáticas</li>
+                    <li>Administración Pública</li>
+                    <li>Lingüística</li>
+                </ul>
+            </div>
+            <div class="doc7">
+                <img class="perfil7" src="https://www.saramusico.com/wp-content/uploads/2016/11/book-profesional-fotos-profesionales0025.jpg">
+                <h2>Lic. Mario Cruz</h2>
+                <h3>Áreas especializadas:</h3>
+                <ul>
+                    <li>Informática</li>
+                    <li>Diseño</li>
+                    <li>Lenguas</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

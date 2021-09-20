@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        h1{
+            font-size:1.5em;
+            font-weight:bold;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;      
+        }
+        p{
+            font-size:1.2em;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        div[id*="div"]{
+            border: 5px solid crimson;
+            margin:20px;
+            padding:20px;
+            width:100%;
+            color:white;
+        }
+        #menu a{
+            text-decoration:none;
+            display:inline-block;
+            width:100%;
+            margin-left:20px;
+            font-size:1.3em;
+            font-weight:bold;
+            color: white;
+        }
+        #menu{
+            background-color:rgb(248, 34, 77);
+            float:left;
+            font-size:1.5em;
+            margin-top:150px;
+            margin-left:20px;
+            width:30%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #menu a:hover{
+            background-color: white;
+            color: crimson;
+        }
+        #titulo{
+            font-size:2.8em;
+            background-color: crimson;
+            width:100%;
+            height: 130px;;
+            color: white;
+            padding-top: 5px;
+            padding-left: 10px;
+            font-family: 'Merriweather', serif; 
+        }
+        #div10{
+            margin-bottom:20px;
+        }
+        #aside{
+            float:left;
+            width:63%;
+        }
+        body{
+            background-image:url('https://images.pexels.com/photos/2310642/pexels-photo-2310642.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-2310642.jpg&fm=jpg');
+            background-size:cover;
+        }
+        @media only screen and (max-width:432px){
+            h1{
+               font-size:1.1em; 
+            }
+            p{
+                font-size:0.9em; 
+            }
+            #menu a{
+                font-size:0.9em;
+                text-align:center; 
+                margin:0;
+            }
+            #menu{
+                margin:0;
+                padding:0;
+                width:100%;
+            }
+            #aside{
+                margin:0;
+                padding:0;
+                width:100%;
+            }
+            div[id*="div"]{
+                margin:0px;
+                padding:20px;
+                border: 4px solid rgb(88, 75, 78);
+            }
+        }
+        @media only screen and (max-width:768px){
+            h1{
+               font-size:1.3em; 
+            }
+            p{
+                font-size:1.1em; 
+            }
+            #menu a{
+                font-size:0.9em;
+                text-align:center; 
+                margin:0;
+            }
+            #menu{
+                margin:0;
+                padding:0;
+                width:100%;
+                margin-top:20px;
+            }
+            #aside{
+                margin:0;
+                padding:0;
+                width:100%;
+            }
+            div[id*="div"]{
+                margin:0px;
+                padding:20px;
+                margin-top:20px;
+                border: 4px solid crimson;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="titulo">
+        <div><img style="width: 100px; height: auto; float: left; margin: 10px;" src="https://cdn.theorg.com/632c3076-4f28-43cc-9a40-32b94f3d96a5_medium.png"></div>
+        <div style="padding-top: 30px; padding-left: 25px; font-family: Arial;"><strong>CURSOS</strong></div>
+    </div>
+    <div id="menu" >
+        <a href="Menu.html">Inicio</a>
+        <a href="OfertaAcademica.html">Oferta Académica</a>
+        <a href="Docentes.html">Docentes</a>
+        <a href="Cursos.html">Cursos</a>
+        <a href="Eventos.html">Eventos</a>
+        <a href="Contactos.html">Contactos</a>
+        <a href="AcercaDe.html">Acerca De</a>
+    </div>
+    <div id="aside" >
+        <div id="div2">
+            <h1>Diseño de Videojuegos</h1>
+            <p>Este curso proporciona conocimientos y pautas sobre cómo diseñar un videojuego. Partiendo  desde un concepto básico, se dan las pautas para trabajar correctamente sus conentidos, de cara a conseguir un objetivo claro: el documento de “game concept” que constituye el documento inicial sobre el que se basa cualquier videojuego. 
+
+            De cara a mejorar la comprensión de los conceptos, los ejemplos y referencias se fundamentarán en videojuegos reales, para permitir así visualizar el documento y cuáles son los resultados finales del diseño descrito en el mismo.</p>
+            <p>6 Cursos</p>
+            <p>Duración: 12 horas</p>
+        </div>
+        <div id="div3">
+            <h1>Chino para principantes</h1>
+            <p> Este es un curso de chino ABC para principiantes, que incluye introducción a la fonética y las expresiones diarias. Después de tomar esta clase, los estudiantes pueden tener un conocimiento básico del chino mandarín y hacer conversaciones básicas de la vida diaria, como intercambiar información personal, hablar sobre los arreglos diarios y la comida, preguntar sobre el precio, presentar la ciudad y el clima, contar sus pasatiempos, etc. Además de los diálogos, la selección de materiales de lectura y actividades prácticas hará que el contenido sea lo más rico y variado posible, con el fin de estimular los intereses de los alumnos. </p>
+            <p>Duración: 21 horas</p>
+        </div>
+        <div id="div4">
+            <h1>Algebra Básica</h1>
+            <p> En este curso, ofrecido por la UNAM, aprenderás a construir expresiones algebraicas a partir de frases, lo que te permitirá resolver problemas en los que  conoces algunos datos numéricos y necesitas encontrar otros.
+            Podrás plantear y resolver ecuaciones de primer grado, ecuaciones simultáneas y ecuaciones de segundo grado.
+            Este curso te va a ser muy útil si actualmente estas llevando un curso de álgebra en la escuela y tienes problemas con él. También si ya has estudiado álgebra y necesitas repasarla, ya que necesitas recordarla para tener éxito en otros cursos más avanzados, como Geometría Analítica, Cálculo o Estadística.</p>
+            <p>Duración: 10 horas</p>
+        </div>
+        <div id="div5">
+            <h1>Budismo,Meditación y Psicología Moderna</h1>
+            <p>Este curso examinará cómo le está yendo al budismo bajo este escrutinio. ¿Están los neurocientíficos comenzando a comprender cómo “funciona” la meditación? ¿Validaría tal comprensión la meditación, o podrían las explicaciones físicas de la meditación socavar el significado espiritual que se le atribuye? ¿Y cómo se mantienen algunas de las afirmaciones budistas básicas sobre la mente humana? Prestaremos especial atención a algunas doctrinas altamente contradictorias: que el yo no existe y que gran parte de la realidad percibida es en cierto sentido ilusoria. ¿Tienen estas afirmaciones, por radicales que suenen, algún tipo de sentido a la luz de la psicología moderna? ¿Y cuáles son las implicaciones de todo esto sobre cómo debemos vivir nuestras vidas? ¿Puede la meditación hacernos no solo más felices, sino mejores personas?</p>
+            <p>Duración: 16 horas</p>
+        </div>
+        <div id="div6">
+            <h1>Psicología social</h1>
+            <p>Este curso ofrece una breve introducción a la psicología social clásica y contemporánea, cubriendo temas como toma de decisiones, persuasión, comportamiento grupal, atracción personal y factores que promueven la salud y el bienestar.
+            Nuestro enfoque estará en hallazgos de investigación sorprendentes, entretenidos e intrigantes que sean fáciles de aplicar en la vida diaria. El curso también se basará en los sitios web de Social Psychology Network, la comunidad en línea más grande del mundo dedicada a la psicología social. Espero que se una a mí en este curso, se divierta y aprenda información útil que enriquezca su vida.</p>
+            <p>Duración: 26 horas</p>
+            <p></p>
+        </div>
+        <div id="div7">
+            <h1>Inglés Empresarial</h1>
+            <p>Este Programa Especializado sirve como una introducción al inglés empresarial, donde usted aprenderá a comunicarse sobre los temas como la gestión, las finanzas y el mercadeo. También aprenderá a escribir propuestas, resúmenes ejecutivos, y material publicitario, así como también aprenderá las estructuras del lenguaje necesarias para dirigir una reunión, realizar ventas, y negociar otras transacciones empresariales. En el proyecto final usted aplicará estas habilidades para comunicar el lanzamiento de un producto nuevo en inglés, asegurando que los ejecutivos empresariales tengan una variedad de herramientas lingüísticas con aplicaciones prácticas en escenarios de negocios en una variedad de áreas funcionales.</p>
+            <p>Duración: 6 meses</p>
+        </div>
+        <div id="div8">
+            <h1>Robótica Aérea</h1>
+            <p>Obtendrá una introducción a la mecánica del vuelo y el diseño de robots voladores de cuadrrotor y podrá desarrollar modelos dinámicos, derivar controladores y sintetizar planificadores para operar en entornos tridimensionales. Estará expuesto a los desafíos de usar sensores ruidosos para la localización y maniobra en entornos complejos y tridimensionales. Finalmente, obtendrá información al ver ejemplos del mundo real de las posibles aplicaciones y desafíos para la industria de drones en rápido crecimiento.</p>
+            <p>6 cursos</p>
+            <p>Duración: 18 horas</p>
+        </div>
+        <div id="div9">
+            <h1>Marketing Digital</h1>
+            <p>A través de este curso aprenderá a enfrentar los mayores retos a la hora de planificar y evaluar las estrategias y ejecuciones de comunicaciones de marketing. Tendrá las habilidades para combinar las teorías y modelos con información práctica y así tomar mejores decisiones de comunicaciones de marketing. Al completar este curso será capaz de aprovechar las comunicaciones integradas de marketing (IMC por sus siglas en inglés) en el proceso de crear marcas valiosas y ganar el corazón de sus consumidores.</p>
+            <p>5 cursos</p>
+            <p>Duración: 9 horas</p>
+        </div>
+        <div id="div10">
+            <h1>Construir ciudades sostenibles</h1>
+            <p>Este curso explora las ciudades sostenibles como motores para ecologizar la economía en Europa y en todo el mundo. Situamos a las ciudades en el contexto de la transformación urbana sostenible y el cambio climático. Conectamos las tendencias clave de urbanización, descarbonización y sostenibilidad. Examinamos cómo las visiones, los experimentos y las innovaciones pueden transformar las áreas urbanas. Y miramos las prácticas (lo que está sucediendo en las ciudades en la actualidad) y las oportunidades (cuáles son las posibilidades de que las ciudades avancen hacia el futuro).</p>
+            <p>Duración: 9 horas</p>
+        </div>
+    </div>
+</body>
+</html>

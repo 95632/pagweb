@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Eventos</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image:url('https://images.pexels.com/photos/2310642/pexels-photo-2310642.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-2310642.jpg&fm=jpg');
+            background-size:cover;
+        }
+        .logo{
+            width: 100px; 
+            height: auto; 
+            float: left; 
+            margin: 10px
+        }
+        .menu a{
+            text-decoration:none;
+            display:inline-block;
+            width:100%;
+            font-size:1.3em;
+            font-weight:bold;
+            color: white;
+        }
+        .menu{
+            background-color:rgb(248, 34, 77);
+            float:left;
+            font-size:1.5em;
+            padding: 0px 20px 0px 20px;
+            margin-top:150px;
+            margin-left: -100px;
+            width:30%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .menu a:hover{
+            background-color: white;
+            color: crimson;
+        }
+        .inf{
+            float:left;
+            width: 63%;
+            margin-left: 20px;
+            
+        }
+        div[class*="doc"]{
+            width: 100%;
+            margin: 45px 0px 5px 0px;
+            padding: 20px 8px 20px 8px;
+            border: 4px solid crimson;
+        }
+        .x{
+            width: 100%;
+            height: 130px;
+            background-color: crimson;
+            margin-top: 0px;
+        }
+        .a1{
+            width: 99%;
+            padding: 30px 0px 25px 0px;
+            border-style: none;
+            font-family: 'Merriweather', serif;
+            font-weight: bold;
+            font-size: 2.8em;
+            color: white;
+        }
+        h2{
+            color:white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        p{
+            font-size: 1.2em;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+        }
+        @media only screen and (max-width:432px){
+            .a1{
+                margin-bottom: 25px;
+            }
+            .menu a{
+                font-size:0.9em;
+                text-align:center; 
+                margin:0px;
+            }
+            .menu{
+                margin-top:0px;
+                padding:0px;
+                width:100%;
+            }
+            .inf{
+                margin:0;
+                padding:0;
+                width:100%;
+            }
+            div[id*="doc"]{
+                margin:0px;
+                padding:20px;
+                border: 4px solid rgb(88, 75, 78);
+            }
+            h2{
+                margin:0px;
+            }
+            p{
+                margin:10px 0px 138px;
+            }
+        }
+        @media only screen and (max-width:768px){
+            .a1{
+                margin-bottom: 35px;
+            }
+            .menu a{
+                font-size:0.9em;
+                text-align:center; 
+                margin:0;
+            }
+            .menu{
+                margin:0;
+                padding:0;
+                width:100%;
+                margin-top:20px;
+            }
+            .inf{
+                margin:0;
+                padding:0;
+                width:100%;
+            }
+            div[id*="doc"]{
+                margin:0px;
+                padding:20px;
+                border: 4px solid rgb(88, 75, 78);
+            }
+            h2{
+                margin:0px;
+            }
+            p{
+                margin:10px 0px 138px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        <div><img class="logo" src="https://cdn.theorg.com/632c3076-4f28-43cc-9a40-32b94f3d96a5_medium.png"></div>
+        <div class="a1"><strong>Eventos</strong></div>
+        <div class="menu" >
+            <a href="Menu.html">Inicio</a>
+            <a href="OfertaAcademica.html">Oferta Académica</a>
+            <a href="Docentes.html">Docentes</a>
+            <a href="Cursos.html">Cursos</a>
+            <a href="Eventos.html">Eventos </a>
+            <a href="Contactos.html">Contactos</a>
+            <a href="AcercaDe.html">Acerca de </a>
+        </div>
+        <div class="inf">
+            <div class="doc">
+                <h2>Aniversario</h2>
+                <p>Cada 28 de Agosto, se celebra el aniversario de la fundación de la institución, por este motivo, aparte de darse como dia libre, el instituto realiza distintas actividades recreativas para los que deseen ser participes de esta celebración.</p>
+            </div>
+            <div class="doc1">
+                <h2>Campamentos científicos</h2>
+                <p>Para aquellos estudiantes que deseen expandir sus conocimientos, así como pasar un buen rato en comunidad, la institución brinda apoyo para la realización de campamentos científicos, los cuales en su mayoría son realizados en exteriores, con el objetivo principal de compartir conocimientos entre los estudiantes e invitados especiales especializados en el tema que se desarrolla en dicho campamento.</p>
+            </div>
+            <div class="doc1">
+                <h2>Feria Tecnológica</h2>
+                <p>Con el objetivo de explotar el talento tecnologico de lo estudiantes, entre Junio y Julio se lleva a cabo la Feria Tecnológica, donde los alumnos sea de forma grupal o individual presentan ante un jurado y al público una gran variedad de proyectos que abarcan distintas áreas de la informática, desde el desarrollo de software hasta la robótica.</p>
+            </div>
+            <div class="doc1">
+                <h2>Convenciones</h2>
+                <p>Para los amantes del Anime, Videojuegos u otros temas, la institución realiza convenciones enfocadas a estos públicos. Dichas convenciones son realizadas de forma pública para los estudiantes, sin embargo garantizamos acceso al público por un pago por entrada.</p>
+            </div>
+            <div class="doc1">
+                <h2>Conferencias</h2>
+                <p>Con el objetivo de expandir los conocimientos de los estudiantes durante sus carreras, se realizarán distintas conferencias acerca de temas de interés dependiendo de la carrera que los alumnos estén llevando, siempre contando con el apoyo de un invitado especializado en el tema.</p>
+            </div>
+            <div class="doc1">
+                <h2>Concurso de Cocina</h2>
+                <p>El instituto es consciente de que muchos estudiantes tienen como hobby el arte de la cocina, por lo tanto a lo largo del año se llevan a cabo concursos de cocina, donde los alumnos puedan dar a relucir el talento y la pasión que poseen por la cocina.</p>
+            </div>
+            <div class="doc1">
+                <h2>Graduación</h2>
+                <p>En el mes de Noviembre, los estudiantes que hayan acabado sus respectidas carreras podrán tener su título profesional y el respectivo pase para poder realizar las Maestrias y Doctorados que brinda la institución.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
